@@ -1,0 +1,21 @@
+{
+    "name": "potter/irc-logger",
+    "description": "PHP PSR-3 Logger for Output to IRC",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\Logger\\IRC\\": "src/Potter/Logger/IRC/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "alpha"
+}
